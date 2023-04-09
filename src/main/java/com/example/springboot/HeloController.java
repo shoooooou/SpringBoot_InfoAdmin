@@ -13,12 +13,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.example.springboot.repositories.MyDataRepository;
 
-import jakarta.annotation.PostConstruct;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
 
-
-
+import javax.annotation.PostConstruct;
 
 
 @Controller
